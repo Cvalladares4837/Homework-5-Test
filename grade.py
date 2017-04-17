@@ -43,12 +43,12 @@ def run_test_case(case: TestCase) -> TestResult:
 
 
 TEST_CASES = [
-    TestCase(TestArguments("C:/Homework/CS450/Homework5/homework-5-Cvalladares4837/grading_data/test-1.gif", "0", "1"), 20),
-    TestCase(TestArguments("C:/Homework/CS450/Homework5/homework-5-Cvalladares4837/grading_data/test-2.gif", "0", "0.1"), 32),
-    TestCase(TestArguments("C:/Homework/CS450/Homework5/homework-5-Cvalladares4837/grading_data/test-3.jpg", "0", ".01"), 3.1),
-    TestCase(TestArguments("C:/Homework/CS450/Homework5/homework-5-Cvalladares4837/grading_data/test-4.png", "0.05", ".1"), 27.4),
-    TestCase(TestArguments("C:/Homework/CS450/Homework5/homework-5-Cvalladares4837/grading_data/test-5.gif", "0.05", ".01"), 39.8),
-    TestCase(TestArguments("C:/Homework/CS450/Homework5/homework-5-Cvalladares4837/grading_data/test-6.png", "0.1", ".01"), 54),
+    TestCase(TestArguments("grading_data/test-1.gif", "0", "1"), 20),
+    TestCase(TestArguments("grading_data/test-2.gif", "0", "0.1"), 32),
+    TestCase(TestArguments("grading_data/test-3.jpg", "0", ".01"), 3.1),
+    TestCase(TestArguments("grading_data/test-4.png", "0.05", ".1"), 27.4),
+    TestCase(TestArguments("grading_data/test-5.gif", "0.05", ".01"), 39.8),
+    TestCase(TestArguments("grading_data/test-6.png", "0.1", ".01"), 54),
 ]
 
 TOTAL_SCORE = 0
